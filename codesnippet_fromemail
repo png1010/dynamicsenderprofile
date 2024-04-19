@@ -1,0 +1,6 @@
+%%[
+VAR @fromEmail,@LeadID
+SET @LeadID = AttributeValue("LeadID")
+SET @fromEmail = Lookup("DynamicContentDE","FromEmail","LeadID",@LeadID)
+]%%
+%%=v(@fromEmail)=%%

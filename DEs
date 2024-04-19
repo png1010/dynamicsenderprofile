@@ -1,0 +1,5 @@
+1: DynamicContentDE
+LeadID|FromName|FromEmail|SaleRepName|
+
+2:CampaignLeadDE
+LeadID|LeadEmailAddress|FirstName|LastName|Interest|
